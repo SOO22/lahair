@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<!-- InstanceBegin template="../Templates/lahair_2.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>LA Hair Feedback</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../css/lahair_3.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="header">
+  <h1>LA Hair</h1>
+  <p class="phone">404.252.5644</p>
+</div>
+
+<!-- Start Main Navigation -->
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    
+    <!--Start dropdown menu for Services navigation -->
+    <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Services</a>
+      <div class="dropdown-content"> <a href="../services/lahairfirsttimeshopper.html">1st Time Shopper</a> <a href="../services/lahairfreeconsultation.html">Free Consultation</a> <a href="../services/lahairextensions.html">Hair Extensions &amp; Weaves</a> <a href="../services/lahairinfusion.html">Infusion-Hair Extensions</a> <a href="../services/lahairmicroweavetrack.html">Micro Weave Track</a> </div>
+    </li>
+    <!-- End dropdown menu for Services navigation --> 
+    
+    <!-- Start dropdown menu for Learning navigation -->
+    <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Learning</a>
+      <div class="dropdown-content"> <a href="../learning/lahairloss.html">Hair Loss</a> <a href="../learning/lahairgrowth.html">Hair Growth</a> <a href="../learning/lahaircare.html">Hair Care</a> <a href="../learning/lahaircolorchart.html">Color Chart</a> <a href="../learning/lahairglossary.html">Glossary</a> </div>
+    </li>
+    <!-- End dropdown menu for Learning navigation -->
+    
+    <li><a href="../about/lahairaboutus.html">About Us</a></li>
+    <li><a href="../contact/lahaircontactus.html">Contact Us</a></li>
+    <li><a href="lahairfeedback.html">Feedback</a></li>
+    <li><a href="../faq/lahairfaq.html">FAQ</a></li>
+  </ul>
+</nav>
+<!-- End Main Navigation --> 
+
+<!--Start content for left side of the page -->
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><!-- InstanceBeginEditable name="pagetitle" -->Feedback<!-- InstanceEndEditable --></h2>
+      <!-- InstanceBeginEditable name="maincontent" -->
+      <div class="container">
+        <form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
+          <input type="hidden" name="username" value="solusany">
+          <input type="hidden" name="reqd" value="1,2,3,4">
+          <input type="hidden" name="url" value="http://studentweb.kennesaw.edu/~solusany/3260group1/feedback/lahairthankyou.html">
+          <div class="row">
+            <div class="column-25">
+              <label>First Name</label>
+            </div>
+            <div class="column-75">
+              <input type="text" required="required" id="FirstName" name="firstname" placeholder="Your first name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-25">
+              <label>Last Name</label>
+            </div>
+            <div class="column-75">
+              <input type="text" required="required" id="LastName" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-25">
+              <label>Email</label>
+            </div>
+            <div class="column-75">
+              <input type="email" id="email" name="email" placeholder="Your email address..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-25">
+              <label>Gender</label>
+            </div>
+            <div class="column-75">
+              <select id="gender" name="gender">
+                <option value="select">Select your gender</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+                <option value="none">Prefer not to answer</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-25">
+              <label>Ethnicity <em>(select all that apply)</em></label>
+            </div>
+            <div class="column-75">
+              <p>
+                <label>
+                  <input type="checkbox" name="Ethnicity" value="American Indian or Alaska Native" id="Ethnicity_0">
+                  American Indian or Alaska Native</label>
+                <br>
+                <label>
+                  <input type="checkbox" name="Ethnicity" value="asian" id="Ethnicity_1">
+                  Asian</label>
+                <br>
+                <label>
+                  <input type="checkbox" name="Ethnicity" value="black_african_american" id="Ethnicity_2">
+                  Black or African American</label>
+                <br>
+                <label>
+                  <input type="checkbox" name="Ethnicity" value="hispanic_or_latino" id="Ethnicity_3">
+                  Hispanic or Latino</label>
+                <br>
+                <label>
+                  <input type="checkbox" name="Ethnicity" value="native_hawaiian_or_other_pacific_islander" id="Ethnicity_4">
+                  Native Hawaiian or Other Pacific Islander </label>
+                <br>
+                <label>
+                  <input type="checkbox" name="Ethnicity" value="white" id="Ethnicity_5">
+                  White</label>
+                <br>
+				  <label>
+                  <input type="checkbox" name="Ethnicity" value="none" id="Ethnicity_6">
+                  Prefer not to answer</label>
+                <br>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-25">
+              <label>Was the site easy to navigate?</label>
+            </div>
+            <div class="column-75">
+              <label>
+                <input type="radio" name="accessible" value="Yes" id="accessible_0">
+                Yes</label>
+              <label>
+                <input type="radio" name="accessible" value="No" id="accessible_1">
+                No</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-25">
+              <label>Did you encounter any issues with the site?</label>
+            </div>
+            <div class="column-75">
+              <label>
+                <input type="radio" name="issues" value="Yes" id="issues_0">
+                Yes</label>
+              <label>
+                <input type="radio" name="issues" value="No" id="issues_1">
+                No</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-25">
+              <label>Comment</label>
+            </div>
+            <div class="column-75">
+              <textarea id="comment" name="comment" placeholder="Share your thoughts.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      <!-- InstanceEndEditable --></div>
+  </div>
+  <!-- End content for left side of the page --> 
+  
+  <!-- Start content for right side of the page -->
+  <div class="rightcolumn">
+    <div class="card"><!-- InstanceBeginEditable name="rightpanel" -->
+      <p><strong>Thank you for visiting our site!</strong></p>
+      <!-- InstanceEndEditable --></div>
+    <div class="card">
+      <h3>Calendar</h3>
+      <div class="calendar big-container">
+        <p>
+          <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&title=LA%20Hair&showNav=0&showDate=0&showPrint=0&showTabs=0&showTitle=0&showTz=0&showCalendars=0&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043"></iframe>
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Follow Us On</h3>
+      <div><a href="https://www.facebook.com/Iamthehairgenie/"><img src="../images/facebook.png" alt="LA Hair Facebook" title="LA Hair Facebook"/></a></div>
+      <div>
+        <h4>Validation</h4>
+        <p><!-- InstanceBeginEditable name="htmlvalidation" --><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fstudentweb.kennesaw.edu%2F~solusany%2F3260group1%2Ffeedback%2Flahairfeedback.html"><img src="../images/valid-html401.png" alt="Link to W3C HTML Validation" title="W3C Valid HTML Logo"/></a><!-- InstanceEndEditable --><a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fstudentweb.kennesaw.edu%2F%7Esolusany%2F3260group1%2Fcss%2Flahair_3.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="../images/vcss.gif" alt="Link to W3C CSS Validation" title="W3C Valid CSS Logo"/></a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End content for right side of the page --> 
+
+<!-- Start content for the footer area -->
+<div class="footer">
+  <h5>404.252.5644</h5>
+  <p><a href="../index.html"><img src="../images/lahairlogo3.png" class="imgborder" alt="LA Hair Logo" title="LA Hair Logo" width="80" height="25"/></a></p>
+  <h5><a href="../index.html">Home</a> | <a href="../sitemap/lahairsitemap.html">Sitemap</a> | <a href="lahairfeedback.html">Feedback</a> | <a href="../credits/lahaircredits.html">Credits</a></h5>
+  <h5>Last Updated: 
+    <!-- #BeginDate format:Am3 -->12/04/2021<!-- #EndDate --> 
+    <br>
+    Copyright &#64; 2021</h5>
+</div>
+
+<!-- End content for the footer area -->
+
+</body>
+<!-- InstanceEnd -->
+</html>
